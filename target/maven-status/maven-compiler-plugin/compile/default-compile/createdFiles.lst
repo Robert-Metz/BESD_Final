@@ -1,0 +1,9 @@
+com\promineotech\pokemonApi\service\PokemonService.class
+com\promineotech\pokemonApi\repository\TrainerRepository.class
+com\promineotech\pokemonApi\repository\PokemonRepository.class
+com\promineotech\pokemonApi\App.class
+com\promineotech\pokemonApi\service\TrainerService.class
+com\promineotech\pokemonApi\entity\Pokemon.class
+com\promineotech\pokemonApi\controller\PokemonController.class
+com\promineotech\pokemonApi\controller\TrainerController.class
+com\promineotech\pokemonApi\entity\Trainer.class

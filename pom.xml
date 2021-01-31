@@ -47,7 +47,7 @@
     <dependency>
     	<groupId>mysql</groupId>
     	<artifactId>mysql-connector-java</artifactId>
-    	<version>8.0.22</version>
+    	<version>8.0.21</version>
     	<scope>runtime</scope>
     </dependency>
     <dependency>
@@ -84,6 +84,10 @@
         <plugin>
           <artifactId>maven-resources-plugin</artifactId>
           <version>3.0.2</version>
+        </plugin>
+        <plugin>
+        	<groupId>org.springframework.boot</groupId>
+        	<artifactId>spring-boot-maven-plugin</artifactId>
         </plugin>
         <plugin>
           <artifactId>maven-compiler-plugin</artifactId>
