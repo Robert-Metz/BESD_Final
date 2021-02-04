@@ -7210,3 +7210,467 @@ java.net.ConnectException: Connection timed out: connect
 		--- [nio-8080-exec-2] o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization started
 2021-01-30 15:26:16.310  INFO DESKTOP-BS6MJ5L
 		--- [nio-8080-exec-2] o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization completed in 21 ms
+2021-01-30 17:10:58.646  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] c.p.p.App                                : Starting App on DESKTOP-BS6MJ5L with PID 17960 (C:\Users\OWNER\BESD\FINAL\pokemonApi\target\classes started by OWNER in C:\Users\OWNER\BESD\FINAL\pokemonApi)
+2021-01-30 17:10:58.679  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@21ac2c05: startup date [Sat Jan 30 17:10:58 PST 2021]; root of context hierarchy
+2021-01-30 17:10:59.185  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'beanNameViewResolver': replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]]
+2021-01-30 17:10:59.520  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] o.h.v.i.u.Version                        : HV000001: Hibernate Validator 5.1.3.Final
+2021-01-30 17:10:59.650  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$973ba805] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-30 17:10:59.673  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'transactionAttributeSource' of type [class org.springframework.transaction.annotation.AnnotationTransactionAttributeSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-30 17:10:59.684  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'transactionInterceptor' of type [class org.springframework.transaction.interceptor.TransactionInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-30 17:10:59.690  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.config.internalTransactionAdvisor' of type [class org.springframework.transaction.interceptor.BeanFactoryTransactionAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-30 17:11:00.143  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2021-01-30 17:11:00.272  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] o.a.c.c.StandardService                  : Starting service Tomcat
+2021-01-30 17:11:00.275  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] o.a.c.c.StandardEngine                   : Starting Servlet Engine: Apache Tomcat/8.0.26
+2021-01-30 17:11:00.353  INFO DESKTOP-BS6MJ5L
+		--- [ost-startStop-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2021-01-30 17:11:00.355  INFO DESKTOP-BS6MJ5L
+		--- [ost-startStop-1] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 1678 ms
+2021-01-30 17:11:00.858  INFO DESKTOP-BS6MJ5L
+		--- [ost-startStop-1] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2021-01-30 17:11:00.864  INFO DESKTOP-BS6MJ5L
+		--- [ost-startStop-1] o.s.b.c.e.FilterRegistrationBean         : Mapping filter: 'characterEncodingFilter' to: [/*]
+2021-01-30 17:11:00.865  INFO DESKTOP-BS6MJ5L
+		--- [ost-startStop-1] o.s.b.c.e.FilterRegistrationBean         : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2021-01-30 17:11:01.053  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2021-01-30 17:11:01.065  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-01-30 17:11:01.135  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] o.h.Version                              : HHH000412: Hibernate Core {4.3.11.Final}
+2021-01-30 17:11:01.139  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] o.h.c.Environment                        : HHH000206: hibernate.properties not found
+2021-01-30 17:11:01.141  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] o.h.c.Environment                        : HHH000021: Bytecode provider name : javassist
+2021-01-30 17:11:01.268  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2021-01-30 17:11:03.944  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-01-30 17:11:04.053  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] o.h.h.i.a.ASTQueryTranslatorFactory      : HHH000397: Using ASTQueryTranslatorFactory
+2021-01-30 17:11:04.308  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] o.h.t.h.SchemaExport                     : HHH000227: Running hbm2ddl schema export
+2021-01-30 17:11:04.495  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] o.h.t.h.SchemaExport                     : HHH000230: Schema export complete
+2021-01-30 17:11:04.892  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@21ac2c05: startup date [Sat Jan 30 17:10:58 PST 2021]; root of context hierarchy
+2021-01-30 17:11:04.952  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/pokemon/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.pokemonApi.controller.PokemonController.deletePokemon(java.lang.Long)
+2021-01-30 17:11:04.955  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/pokemon],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.pokemonApi.controller.PokemonController.getPokemon()
+2021-01-30 17:11:04.956  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/pokemon],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.pokemonApi.controller.PokemonController.createPokemon(com.promineotech.pokemonApi.entity.Pokemon)
+2021-01-30 17:11:04.959  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/pokemon/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.pokemonApi.controller.PokemonController.updatePokemon(com.promineotech.pokemonApi.entity.Pokemon,java.lang.Long)
+2021-01-30 17:11:04.961  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/trainer/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.pokemonApi.controller.TrainerController.updateTrainer(com.promineotech.pokemonApi.entity.Trainer,java.lang.Long)
+2021-01-30 17:11:04.964  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/trainer],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.pokemonApi.controller.TrainerController.createTrainer(com.promineotech.pokemonApi.entity.Trainer)
+2021-01-30 17:11:04.967  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/trainer/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.pokemonApi.controller.TrainerController.deleteTrainer(java.lang.Long)
+2021-01-30 17:11:04.968  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/trainer/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.pokemonApi.controller.TrainerController.getTrainer(java.lang.Long)
+2021-01-30 17:11:04.970  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/trainer],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.pokemonApi.controller.TrainerController.getTrainers()
+2021-01-30 17:11:04.972  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2021-01-30 17:11:04.975  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest)
+2021-01-30 17:11:04.997  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-01-30 17:11:05.000  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-01-30 17:11:05.031  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-01-30 17:11:05.155  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2021-01-30 17:11:05.184  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2021-01-30 17:11:05.192  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2021-01-30 17:11:05.206  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] o.a.t.u.n.NioSelectorPool                : Using a shared selector for servlet write/read
+2021-01-30 17:11:05.225  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2021-01-30 17:11:05.228  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] c.p.p.App                                : Started App in 6.808 seconds (JVM running for 9.891)
+2021-01-30 17:11:12.973  INFO DESKTOP-BS6MJ5L
+		--- [nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2021-01-30 17:11:12.976  INFO DESKTOP-BS6MJ5L
+		--- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization started
+2021-01-30 17:11:12.997  INFO DESKTOP-BS6MJ5L
+		--- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization completed in 20 ms
+2021-02-03 14:04:48.603  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] c.p.p.App                                : Starting App on DESKTOP-BS6MJ5L with PID 16560 (C:\Users\OWNER\BESD\FINAL\pokemonApi\target\classes started by OWNER in C:\Users\OWNER\BESD\FINAL\pokemonApi)
+2021-02-03 14:04:48.640  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3e312303: startup date [Wed Feb 03 14:04:48 PST 2021]; root of context hierarchy
+2021-02-03 14:04:49.196  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'beanNameViewResolver': replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]]
+2021-02-03 14:04:49.555  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] o.h.v.i.u.Version                        : HV000001: Hibernate Validator 5.1.3.Final
+2021-02-03 14:04:49.698  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c3d99b42] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-03 14:04:49.721  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'transactionAttributeSource' of type [class org.springframework.transaction.annotation.AnnotationTransactionAttributeSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-03 14:04:49.733  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'transactionInterceptor' of type [class org.springframework.transaction.interceptor.TransactionInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-03 14:04:49.739  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.config.internalTransactionAdvisor' of type [class org.springframework.transaction.interceptor.BeanFactoryTransactionAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-03 14:04:50.210  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2021-02-03 14:04:50.344  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] o.a.c.c.StandardService                  : Starting service Tomcat
+2021-02-03 14:04:50.347  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] o.a.c.c.StandardEngine                   : Starting Servlet Engine: Apache Tomcat/8.0.26
+2021-02-03 14:04:50.458  INFO DESKTOP-BS6MJ5L
+		--- [ost-startStop-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2021-02-03 14:04:50.460  INFO DESKTOP-BS6MJ5L
+		--- [ost-startStop-1] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 1822 ms
+2021-02-03 14:04:50.997  INFO DESKTOP-BS6MJ5L
+		--- [ost-startStop-1] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2021-02-03 14:04:51.002  INFO DESKTOP-BS6MJ5L
+		--- [ost-startStop-1] o.s.b.c.e.FilterRegistrationBean         : Mapping filter: 'characterEncodingFilter' to: [/*]
+2021-02-03 14:04:51.003  INFO DESKTOP-BS6MJ5L
+		--- [ost-startStop-1] o.s.b.c.e.FilterRegistrationBean         : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2021-02-03 14:04:51.194  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2021-02-03 14:04:51.207  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-02-03 14:04:51.297  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] o.h.Version                              : HHH000412: Hibernate Core {4.3.11.Final}
+2021-02-03 14:04:51.301  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] o.h.c.Environment                        : HHH000206: hibernate.properties not found
+2021-02-03 14:04:51.303  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] o.h.c.Environment                        : HHH000021: Bytecode provider name : javassist
+2021-02-03 14:04:51.443  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2021-02-03 14:04:54.323  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-02-03 14:04:54.431  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] o.h.h.i.a.ASTQueryTranslatorFactory      : HHH000397: Using ASTQueryTranslatorFactory
+2021-02-03 14:04:54.696  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] o.h.t.h.SchemaExport                     : HHH000227: Running hbm2ddl schema export
+2021-02-03 14:04:54.912  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] o.h.t.h.SchemaExport                     : HHH000230: Schema export complete
+2021-02-03 14:04:55.320  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3e312303: startup date [Wed Feb 03 14:04:48 PST 2021]; root of context hierarchy
+2021-02-03 14:04:55.383  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/pokemon],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.pokemonApi.controller.PokemonController.getPokemon()
+2021-02-03 14:04:55.385  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/pokemon/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.pokemonApi.controller.PokemonController.updatePokemon(com.promineotech.pokemonApi.entity.Pokemon,java.lang.Long)
+2021-02-03 14:04:55.387  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/pokemon/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.pokemonApi.controller.PokemonController.deletePokemon(java.lang.Long)
+2021-02-03 14:04:55.389  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/pokemon],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.pokemonApi.controller.PokemonController.createPokemon(com.promineotech.pokemonApi.entity.Pokemon)
+2021-02-03 14:04:55.391  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/trainer],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.pokemonApi.controller.TrainerController.createTrainer(com.promineotech.pokemonApi.entity.Trainer)
+2021-02-03 14:04:55.395  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/trainer/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.pokemonApi.controller.TrainerController.updateTrainer(com.promineotech.pokemonApi.entity.Trainer,java.lang.Long)
+2021-02-03 14:04:55.396  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/trainer],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.pokemonApi.controller.TrainerController.getTrainers()
+2021-02-03 14:04:55.398  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/trainer/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.pokemonApi.controller.TrainerController.getTrainer(java.lang.Long)
+2021-02-03 14:04:55.400  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/trainer/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.pokemonApi.controller.TrainerController.deleteTrainer(java.lang.Long)
+2021-02-03 14:04:55.402  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2021-02-03 14:04:55.405  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest)
+2021-02-03 14:04:55.428  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-02-03 14:04:55.431  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-02-03 14:04:55.464  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-02-03 14:04:55.597  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2021-02-03 14:04:55.624  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2021-02-03 14:04:55.632  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2021-02-03 14:04:55.652  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] o.a.t.u.n.NioSelectorPool                : Using a shared selector for servlet write/read
+2021-02-03 14:04:55.671  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2021-02-03 14:04:55.674  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] c.p.p.App                                : Started App in 7.313 seconds (JVM running for 11.005)
+2021-02-03 14:09:25.292  INFO DESKTOP-BS6MJ5L
+		--- [nio-8080-exec-2] o.a.c.c.C.[.[.[/]                        : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2021-02-03 14:09:25.294  INFO DESKTOP-BS6MJ5L
+		--- [nio-8080-exec-2] o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization started
+2021-02-03 14:09:25.320  INFO DESKTOP-BS6MJ5L
+		--- [nio-8080-exec-2] o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization completed in 23 ms
+2021-02-03 17:31:42.647  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] c.p.p.App                                : Starting App on DESKTOP-BS6MJ5L with PID 12064 (C:\Users\OWNER\BESD\FINAL\pokemonApi\target\classes started by OWNER in C:\Users\OWNER\BESD\FINAL\pokemonApi)
+2021-02-03 17:31:42.681  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3f42fbda: startup date [Wed Feb 03 17:31:42 PST 2021]; root of context hierarchy
+2021-02-03 17:31:43.198  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'beanNameViewResolver': replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]]
+2021-02-03 17:31:43.553  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] o.h.v.i.u.Version                        : HV000001: Hibernate Validator 5.1.3.Final
+2021-02-03 17:31:43.698  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$f6d044b8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-03 17:31:43.721  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'transactionAttributeSource' of type [class org.springframework.transaction.annotation.AnnotationTransactionAttributeSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-03 17:31:43.732  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'transactionInterceptor' of type [class org.springframework.transaction.interceptor.TransactionInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-03 17:31:43.738  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.config.internalTransactionAdvisor' of type [class org.springframework.transaction.interceptor.BeanFactoryTransactionAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-03 17:31:44.193  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2021-02-03 17:31:44.332  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] o.a.c.c.StandardService                  : Starting service Tomcat
+2021-02-03 17:31:44.334  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] o.a.c.c.StandardEngine                   : Starting Servlet Engine: Apache Tomcat/8.0.26
+2021-02-03 17:31:44.417  INFO DESKTOP-BS6MJ5L
+		--- [ost-startStop-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2021-02-03 17:31:44.419  INFO DESKTOP-BS6MJ5L
+		--- [ost-startStop-1] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 1741 ms
+2021-02-03 17:31:44.936  INFO DESKTOP-BS6MJ5L
+		--- [ost-startStop-1] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2021-02-03 17:31:44.941  INFO DESKTOP-BS6MJ5L
+		--- [ost-startStop-1] o.s.b.c.e.FilterRegistrationBean         : Mapping filter: 'characterEncodingFilter' to: [/*]
+2021-02-03 17:31:44.942  INFO DESKTOP-BS6MJ5L
+		--- [ost-startStop-1] o.s.b.c.e.FilterRegistrationBean         : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2021-02-03 17:31:45.137  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2021-02-03 17:31:45.151  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-02-03 17:31:45.226  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] o.h.Version                              : HHH000412: Hibernate Core {4.3.11.Final}
+2021-02-03 17:31:45.230  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] o.h.c.Environment                        : HHH000206: hibernate.properties not found
+2021-02-03 17:31:45.233  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] o.h.c.Environment                        : HHH000021: Bytecode provider name : javassist
+2021-02-03 17:31:45.368  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2021-02-03 17:31:48.028  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-02-03 17:31:48.128  WARN DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] ationConfigEmbeddedWebApplicationContext : Exception encountered during context initialization - cancelling refresh attempt
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaAutoConfiguration.class]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1574)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:539)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:476)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:303)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:299)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:956)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:747)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:480)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:118)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:687)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:967)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:956)
+	at com.promineotech.pokemonApi.App.main(App.java:14)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.maven.RunMojo$LaunchRunner.run(RunMojo.java:418)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.persistenceException(EntityManagerFactoryBuilderImpl.java:1249)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.access$600(EntityManagerFactoryBuilderImpl.java:120)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl$4.perform(EntityManagerFactoryBuilderImpl.java:860)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl$4.perform(EntityManagerFactoryBuilderImpl.java:850)
+	at org.hibernate.boot.registry.classloading.internal.ClassLoaderServiceImpl.withTccl(ClassLoaderServiceImpl.java:425)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:849)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:60)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:343)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:318)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1633)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1570)
+	... 21 more
+Caused by: org.hibernate.AnnotationException: Illegal attempt to map a non collection as a @OneToMany, @ManyToMany or @CollectionOfElements: com.promineotech.pokemonApi.entity.Pokemon.trainerId
+	at org.hibernate.cfg.annotations.CollectionBinder.getCollectionBinder(CollectionBinder.java:331)
+	at org.hibernate.cfg.AnnotationBinder.processElementAnnotations(AnnotationBinder.java:1922)
+	at org.hibernate.cfg.AnnotationBinder.processIdPropertiesIfNotAlready(AnnotationBinder.java:963)
+	at org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:796)
+	at org.hibernate.cfg.Configuration$MetadataSourceQueue.processAnnotatedClassesQueue(Configuration.java:3845)
+	at org.hibernate.cfg.Configuration$MetadataSourceQueue.processMetadata(Configuration.java:3799)
+	at org.hibernate.cfg.Configuration.secondPassCompile(Configuration.java:1412)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1846)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl$4.perform(EntityManagerFactoryBuilderImpl.java:857)
+	... 29 more
+2021-02-03 17:31:48.173  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] o.a.c.c.StandardService                  : Stopping service Tomcat
+2021-02-03 17:31:48.183  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] .b.l.ClasspathLoggingApplicationListener : Application failed to start with classpath: [file:/C:/Users/OWNER/BESD/FINAL/pokemonApi/src/main/resources/, file:/C:/Users/OWNER/BESD/FINAL/pokemonApi/src/main/resources/, file:/C:/Users/OWNER/BESD/FINAL/pokemonApi/target/classes/, file:/C:/Users/OWNER/.m2/repository/org/springframework/data/spring-data-jpa/1.7.3.RELEASE/spring-data-jpa-1.7.3.RELEASE.jar, file:/C:/Users/OWNER/.m2/repository/com/google/protobuf/protobuf-java/3.11.4/protobuf-java-3.11.4.jar, file:/C:/Users/OWNER/.m2/repository/org/yaml/snakeyaml/1.14/snakeyaml-1.14.jar, file:/C:/Users/OWNER/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar, file:/C:/Users/OWNER/.m2/repository/org/springframework/spring-beans/4.1.7.RELEASE/spring-beans-4.1.7.RELEASE.jar, file:/C:/Users/OWNER/.m2/repository/org/apache/logging/log4j/log4j-core/2.1/log4j-core-2.1.jar, file:/C:/Users/OWNER/.m2/repository/org/slf4j/slf4j-api/1.7.12/slf4j-api-1.7.12.jar, file:/C:/Users/OWNER/.m2/repository/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.jar, file:/C:/Users/OWNER/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.12/jcl-over-slf4j-1.7.12.jar, file:/C:/Users/OWNER/.m2/repository/antlr/antlr/2.7.7/antlr-2.7.7.jar, file:/C:/Users/OWNER/.m2/repository/org/springframework/data/spring-data-commons/1.9.3.RELEASE/spring-data-commons-1.9.3.RELEASE.jar, file:/C:/Users/OWNER/.m2/repository/org/springframework/spring-jdbc/4.1.7.RELEASE/spring-jdbc-4.1.7.RELEASE.jar, file:/C:/Users/OWNER/.m2/repository/org/apache/logging/log4j/log4j-slf4j-impl/2.1/log4j-slf4j-impl-2.1.jar, file:/C:/Users/OWNER/.m2/repository/org/springframework/spring-aop/4.1.7.RELEASE/spring-aop-4.1.7.RELEASE.jar, file:/C:/Users/OWNER/.m2/repository/org/springframework/security/spring-security-crypto/5.1.2.RELEASE/spring-security-crypto-5.1.2.RELEASE.jar, file:/C:/Users/OWNER/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/1.2.6.RELEASE/spring-boot-autoconfigure-1.2.6.RELEASE.jar, file:/C:/Users/OWNER/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/8.0.26/tomcat-embed-core-8.0.26.jar, file:/C:/Users/OWNER/.m2/repository/org/aspectj/aspectjweaver/1.8.6/aspectjweaver-1.8.6.jar, file:/C:/Users/OWNER/.m2/repository/org/springframework/boot/spring-boot-starter-web/1.2.6.RELEASE/spring-boot-starter-web-1.2.6.RELEASE.jar, file:/C:/Users/OWNER/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.4.6/jackson-annotations-2.4.6.jar, file:/C:/Users/OWNER/.m2/repository/org/springframework/boot/spring-boot/1.2.6.RELEASE/spring-boot-1.2.6.RELEASE.jar, file:/C:/Users/OWNER/.m2/repository/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final.jar, file:/C:/Users/OWNER/.m2/repository/org/apache/tomcat/embed/tomcat-embed-el/8.0.26/tomcat-embed-el-8.0.26.jar, file:/C:/Users/OWNER/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar, file:/C:/Users/OWNER/.m2/repository/org/springframework/spring-expression/4.1.7.RELEASE/spring-expression-4.1.7.RELEASE.jar, file:/C:/Users/OWNER/.m2/repository/org/springframework/boot/spring-boot-starter-aop/1.2.6.RELEASE/spring-boot-starter-aop-1.2.6.RELEASE.jar, file:/C:/Users/OWNER/.m2/repository/com/fasterxml/classmate/1.0.0/classmate-1.0.0.jar, file:/C:/Users/OWNER/.m2/repository/org/springframework/boot/spring-boot-starter-jdbc/1.2.6.RELEASE/spring-boot-starter-jdbc-1.2.6.RELEASE.jar, file:/C:/Users/OWNER/.m2/repository/org/springframework/spring-aspects/4.1.7.RELEASE/spring-aspects-4.1.7.RELEASE.jar, file:/C:/Users/OWNER/.m2/repository/org/apache/tomcat/tomcat-jdbc/8.0.26/tomcat-jdbc-8.0.26.jar, file:/C:/Users/OWNER/.m2/repository/org/hibernate/hibernate-core/4.3.11.Final/hibernate-core-4.3.11.Final.jar, file:/C:/Users/OWNER/.m2/repository/org/springframework/spring-orm/4.1.7.RELEASE/spring-orm-4.1.7.RELEASE.jar, file:/C:/Users/OWNER/.m2/repository/mysql/mysql-connector-java/8.0.21/mysql-connector-java-8.0.21.jar, file:/C:/Users/OWNER/.m2/repository/org/apache/tomcat/tomcat-juli/8.0.26/tomcat-juli-8.0.26.jar, file:/C:/Users/OWNER/.m2/repository/org/springframework/boot/spring-boot-starter-data-jpa/1.2.6.RELEASE/spring-boot-starter-data-jpa-1.2.6.RELEASE.jar, file:/C:/Users/OWNER/.m2/repository/org/springframework/boot/spring-boot-starter-log4j2/1.2.6.RELEASE/spring-boot-starter-log4j2-1.2.6.RELEASE.jar, file:/C:/Users/OWNER/.m2/repository/org/jboss/jandex/1.1.0.Final/jandex-1.1.0.Final.jar, file:/C:/Users/OWNER/.m2/repository/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar, file:/C:/Users/OWNER/.m2/repository/org/slf4j/jul-to-slf4j/1.7.12/jul-to-slf4j-1.7.12.jar, file:/C:/Users/OWNER/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.4.6/jackson-databind-2.4.6.jar, file:/C:/Users/OWNER/.m2/repository/org/jboss/logging/jboss-logging/3.1.3.GA/jboss-logging-3.1.3.GA.jar, file:/C:/Users/OWNER/.m2/repository/org/apache/tomcat/embed/tomcat-embed-websocket/8.0.26/tomcat-embed-websocket-8.0.26.jar, file:/C:/Users/OWNER/.m2/repository/org/springframework/spring-webmvc/4.1.7.RELEASE/spring-webmvc-4.1.7.RELEASE.jar, file:/C:/Users/OWNER/.m2/repository/org/hibernate/hibernate-entitymanager/4.3.11.Final/hibernate-entitymanager-4.3.11.Final.jar, file:/C:/Users/OWNER/.m2/repository/org/apache/tomcat/embed/tomcat-embed-logging-juli/8.0.26/tomcat-embed-logging-juli-8.0.26.jar, file:/C:/Users/OWNER/.m2/repository/org/hibernate/hibernate-validator/5.1.3.Final/hibernate-validator-5.1.3.Final.jar, file:/C:/Users/OWNER/.m2/repository/org/javassist/javassist/3.18.1-GA/javassist-3.18.1-GA.jar, file:/C:/Users/OWNER/.m2/repository/org/springframework/spring-context/4.1.7.RELEASE/spring-context-4.1.7.RELEASE.jar, file:/C:/Users/OWNER/.m2/repository/org/apache/logging/log4j/log4j-api/2.1/log4j-api-2.1.jar, file:/C:/Users/OWNER/.m2/repository/org/hibernate/common/hibernate-commons-annotations/4.0.5.Final/hibernate-commons-annotations-4.0.5.Final.jar, file:/C:/Users/OWNER/.m2/repository/org/springframework/boot/spring-boot-starter-tomcat/1.2.6.RELEASE/spring-boot-starter-tomcat-1.2.6.RELEASE.jar, file:/C:/Users/OWNER/.m2/repository/org/jboss/logging/jboss-logging-annotations/1.2.0.Beta1/jboss-logging-annotations-1.2.0.Beta1.jar, file:/C:/Users/OWNER/.m2/repository/org/springframework/spring-web/4.1.7.RELEASE/spring-web-4.1.7.RELEASE.jar, file:/C:/Users/OWNER/.m2/repository/javax/transaction/javax.transaction-api/1.2/javax.transaction-api-1.2.jar, file:/C:/Users/OWNER/.m2/repository/org/springframework/spring-tx/4.1.7.RELEASE/spring-tx-4.1.7.RELEASE.jar, file:/C:/Users/OWNER/.m2/repository/org/aspectj/aspectjrt/1.8.6/aspectjrt-1.8.6.jar, file:/C:/Users/OWNER/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.4.6/jackson-core-2.4.6.jar, file:/C:/Users/OWNER/.m2/repository/org/springframework/boot/spring-boot-starter/1.2.6.RELEASE/spring-boot-starter-1.2.6.RELEASE.jar, file:/C:/Users/OWNER/.m2/repository/org/springframework/spring-core/4.1.7.RELEASE/spring-core-4.1.7.RELEASE.jar]
+2021-02-03 17:31:48.217  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] utoConfigurationReportLoggingInitializer : 
+
+Error starting ApplicationContext. To display the auto-configuration report enable debug logging (start with --debug)
+
+
+2021-02-03 17:31:48.221 ERROR DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] o.s.b.SpringApplication                  : Application startup failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaAutoConfiguration.class]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1574)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:539)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:476)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:303)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:299)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:956)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:747)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:480)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:118)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:687)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:967)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:956)
+	at com.promineotech.pokemonApi.App.main(App.java:14)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.maven.RunMojo$LaunchRunner.run(RunMojo.java:418)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.persistenceException(EntityManagerFactoryBuilderImpl.java:1249)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.access$600(EntityManagerFactoryBuilderImpl.java:120)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl$4.perform(EntityManagerFactoryBuilderImpl.java:860)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl$4.perform(EntityManagerFactoryBuilderImpl.java:850)
+	at org.hibernate.boot.registry.classloading.internal.ClassLoaderServiceImpl.withTccl(ClassLoaderServiceImpl.java:425)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:849)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:60)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:343)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:318)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1633)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1570)
+	... 21 more
+Caused by: org.hibernate.AnnotationException: Illegal attempt to map a non collection as a @OneToMany, @ManyToMany or @CollectionOfElements: com.promineotech.pokemonApi.entity.Pokemon.trainerId
+	at org.hibernate.cfg.annotations.CollectionBinder.getCollectionBinder(CollectionBinder.java:331)
+	at org.hibernate.cfg.AnnotationBinder.processElementAnnotations(AnnotationBinder.java:1922)
+	at org.hibernate.cfg.AnnotationBinder.processIdPropertiesIfNotAlready(AnnotationBinder.java:963)
+	at org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:796)
+	at org.hibernate.cfg.Configuration$MetadataSourceQueue.processAnnotatedClassesQueue(Configuration.java:3845)
+	at org.hibernate.cfg.Configuration$MetadataSourceQueue.processMetadata(Configuration.java:3799)
+	at org.hibernate.cfg.Configuration.secondPassCompile(Configuration.java:1412)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1846)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl$4.perform(EntityManagerFactoryBuilderImpl.java:857)
+	... 29 more
+2021-02-03 17:32:30.879  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] c.p.p.App                                : Starting App on DESKTOP-BS6MJ5L with PID 16464 (C:\Users\OWNER\BESD\FINAL\pokemonApi\target\classes started by OWNER in C:\Users\OWNER\BESD\FINAL\pokemonApi)
+2021-02-03 17:32:30.913  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3fe473a3: startup date [Wed Feb 03 17:32:30 PST 2021]; root of context hierarchy
+2021-02-03 17:32:31.420  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'beanNameViewResolver': replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]]
+2021-02-03 17:32:31.761  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] o.h.v.i.u.Version                        : HV000001: Hibernate Validator 5.1.3.Final
+2021-02-03 17:32:31.897  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$fd2c9833] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-03 17:32:31.920  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'transactionAttributeSource' of type [class org.springframework.transaction.annotation.AnnotationTransactionAttributeSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-03 17:32:31.932  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'transactionInterceptor' of type [class org.springframework.transaction.interceptor.TransactionInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-03 17:32:31.939  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.config.internalTransactionAdvisor' of type [class org.springframework.transaction.interceptor.BeanFactoryTransactionAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-03 17:32:32.402  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2021-02-03 17:32:32.531  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] o.a.c.c.StandardService                  : Starting service Tomcat
+2021-02-03 17:32:32.534  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] o.a.c.c.StandardEngine                   : Starting Servlet Engine: Apache Tomcat/8.0.26
+2021-02-03 17:32:32.637  INFO DESKTOP-BS6MJ5L
+		--- [ost-startStop-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2021-02-03 17:32:32.639  INFO DESKTOP-BS6MJ5L
+		--- [ost-startStop-1] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 1729 ms
+2021-02-03 17:32:33.158  INFO DESKTOP-BS6MJ5L
+		--- [ost-startStop-1] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2021-02-03 17:32:33.163  INFO DESKTOP-BS6MJ5L
+		--- [ost-startStop-1] o.s.b.c.e.FilterRegistrationBean         : Mapping filter: 'characterEncodingFilter' to: [/*]
+2021-02-03 17:32:33.164  INFO DESKTOP-BS6MJ5L
+		--- [ost-startStop-1] o.s.b.c.e.FilterRegistrationBean         : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2021-02-03 17:32:33.365  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2021-02-03 17:32:33.377  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-02-03 17:32:33.448  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] o.h.Version                              : HHH000412: Hibernate Core {4.3.11.Final}
+2021-02-03 17:32:33.453  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] o.h.c.Environment                        : HHH000206: hibernate.properties not found
+2021-02-03 17:32:33.456  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] o.h.c.Environment                        : HHH000021: Bytecode provider name : javassist
+2021-02-03 17:32:33.590  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2021-02-03 17:32:36.351  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-02-03 17:32:36.458  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] o.h.h.i.a.ASTQueryTranslatorFactory      : HHH000397: Using ASTQueryTranslatorFactory
+2021-02-03 17:32:36.714  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] o.h.t.h.SchemaExport                     : HHH000227: Running hbm2ddl schema export
+2021-02-03 17:32:36.905  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] o.h.t.h.SchemaExport                     : HHH000230: Schema export complete
+2021-02-03 17:32:37.363  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3fe473a3: startup date [Wed Feb 03 17:32:30 PST 2021]; root of context hierarchy
+2021-02-03 17:32:37.421  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/pokemon],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.pokemonApi.controller.PokemonController.getPokemon()
+2021-02-03 17:32:37.423  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/pokemon],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.pokemonApi.controller.PokemonController.createPokemon(com.promineotech.pokemonApi.entity.Pokemon)
+2021-02-03 17:32:37.424  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/pokemon/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.pokemonApi.controller.PokemonController.deletePokemon(java.lang.Long)
+2021-02-03 17:32:37.426  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/pokemon/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.pokemonApi.controller.PokemonController.updatePokemon(com.promineotech.pokemonApi.entity.Pokemon,java.lang.Long)
+2021-02-03 17:32:37.428  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/pokemon/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.pokemonApi.controller.PokemonController.getPokemonByTrainerId(java.lang.Long)
+2021-02-03 17:32:37.430  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/trainer],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.pokemonApi.controller.TrainerController.getTrainers()
+2021-02-03 17:32:37.432  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/trainer/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.pokemonApi.controller.TrainerController.getTrainer(java.lang.Long)
+2021-02-03 17:32:37.435  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/trainer/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.pokemonApi.controller.TrainerController.deleteTrainer(java.lang.Long)
+2021-02-03 17:32:37.437  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/trainer],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.pokemonApi.controller.TrainerController.createTrainer(com.promineotech.pokemonApi.entity.Trainer)
+2021-02-03 17:32:37.439  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/trainer/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.pokemonApi.controller.TrainerController.updateTrainer(com.promineotech.pokemonApi.entity.Trainer,java.lang.Long)
+2021-02-03 17:32:37.441  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2021-02-03 17:32:37.444  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest)
+2021-02-03 17:32:37.468  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-02-03 17:32:37.471  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-02-03 17:32:37.503  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-02-03 17:32:37.644  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2021-02-03 17:32:37.672  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2021-02-03 17:32:37.681  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2021-02-03 17:32:37.886  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] o.a.t.u.n.NioSelectorPool                : Using a shared selector for servlet write/read
+2021-02-03 17:32:37.906  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2021-02-03 17:32:37.910  INFO DESKTOP-BS6MJ5L
+		--- [nApi.App.main()] c.p.p.App                                : Started App in 7.251 seconds (JVM running for 10.458)
+2021-02-03 17:33:19.946  INFO DESKTOP-BS6MJ5L
+		--- [nio-8080-exec-2] o.a.c.c.C.[.[.[/]                        : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2021-02-03 17:33:19.947  INFO DESKTOP-BS6MJ5L
+		--- [nio-8080-exec-2] o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization started
+2021-02-03 17:33:19.970  INFO DESKTOP-BS6MJ5L
+		--- [nio-8080-exec-2] o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization completed in 23 ms

@@ -20,6 +20,11 @@ public class PokemonController {
 	@Autowired
 	private PokemonService service;
 	
+	@RequestMapping(value="/{id}", method=RequestMethod.GET)
+	public ResponseEntity<Object> getPokemonByTrainerId(@PathVariable Long id) {
+		return new ResponseEntity<Object>(service.getPokemonByTrainerId(id), HttpStatus.OK);
+	}
+	
 	@RequestMapping(method=RequestMethod.GET)
 	public ResponseEntity<Object> getPokemon() {
 		return new ResponseEntity<Object>(service.getPokemon(), HttpStatus.OK);

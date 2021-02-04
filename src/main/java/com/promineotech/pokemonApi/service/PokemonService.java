@@ -16,6 +16,10 @@ public class PokemonService {
 	@Autowired
 	private PokemonRepository repo;
 	
+	public Iterable<Pokemon> getPokemonByTrainerId(Long trainerId) {
+		return repo.findAllByTrainerId(trainerId);
+	}
+	
 	public Iterable<Pokemon> getPokemon() {
 		return repo.findAll();
 	}
@@ -30,6 +34,7 @@ public class PokemonService {
 			oldPokemon.setName(pokemon.getName());
 			oldPokemon.setType(pokemon.getType());
 			oldPokemon.setDescription(pokemon.getDescription());
+			oldPokemon.setTrainerId(pokemon.getTrainerId());
 			return repo.save(oldPokemon);
 		} catch (Exception e) {
 			logger.error("Exception occurred while trying to update pokemon: " + id, e);
